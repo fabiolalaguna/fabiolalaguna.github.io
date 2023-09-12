@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Nunito:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script defer src="script.js"></script>
+    <title>Portfolio Fabiola Laguna</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title header-title--hidden">
+        Hello, my name is <span class="header-title--main">Fabiola Laguna</span>
+        <br />
+        I'm a <span class="header-title--main">front-end developer</span>.
+        <br />
+        <button class="btn-knowme btn-scroll--to hvr-sweep-to-right">
+          Know me
+          <!-- <a href="#section-1">Know me</a> -->
+        </button>
+      </h1>
+    </header>
+
+    <!-- Section 1 -->
+    <section class="section-1" id="section-1">
+      <div class="section-description section-hidden">
+        <h2 class="title-about">About me</h2>
+        <div class="section-description--box">
+          <p class="about">
+            I am from Venezuela and currently living in Tampa, FL. I have a
+            degree in systems engineering but developed an interest in Front-End
+            web development after learning how to express ideas through web
+            designs. Using different development tools, I create clean,
+            appealing, and functional interfaces.
+            <br />
+            When I am not studying, I enjoy watching movies, exercising, and
+            skating. I also like to draw portraits and spend time with my two
+            dogs.
+          </p>
+          <a
+            target="_blank"
+            href="/files/Fabiola_Laguna_Resume.pdf"
+            class="btn-about hvr-sweep-to-right"
+            type="button"
+          >
+            View resume
+            <!-- <embed src="/files/resume.pdf" type="application/pdf" /> -->
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 1 -->
+
+    <!-- Section 2 -->
+    <section class="section-2 section-hidden">
+      <h2 class="projects-title">Projects</h2>
+
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="projects-box pb1">
+          <!-- <div class="projects"> -->
+          <div class="titles">
+            <h3>Versatile Promotions</h3>
+            <p class="description">
+              This was my first project as a freelancer. I created the whole
+              design for the client using Figma, and then developed the page
+              through HTML5 and CSS. I made it interactive with JavaScript where
+              I implemented the functionality of a shopping cart.
+            </p>
+            <a
+              href="https://vp-demo.vercel.app/"
+              target="_blank"
+              class="live hvr-sweep-to-right"
+              >See live</a
+            >
+          </div>
+
+          <div class="image">
+            <img
+              class="img-project scale-up-center lazy-img"
+              data-src="/assets/1.png"
+              src="/assets/1-lazy.webp"
+              alt="Versatile Promotions"
+            />
+          </div>
+          <!-- </div> -->
+        </div>
+        <!-- End of Project 1 -->
+
+        <!-- Project 2 -->
+        <div class="projects-box pb1">
+          <!-- <div class="projects"> -->
+          <div class="titles">
+            <h3>Mapty app</h3>
+            <p class="description">
+              Here I learned how to use the Geolocation API and the Leaflet
+              library to display a map according to the user coordinates and
+              managed the workout data creating Classes and working with the
+              LocalStorage.
+            </p>
+            <a
+              href="https://mapty-app-alpha.vercel.app/"
+              target="_blank"
+              class="live hvr-sweep-to-right"
+              >See live</a
+            >
+          </div>
+          <div class="image">
+            <img
+              class="img-project scale-up-center lazy-img"
+              data-src="/assets/mapty.png"
+              src="/assets/mapty-lazy.webp"
+              alt="Mapty app"
+            />
+          </div>
+          <!-- </div> -->
+        </div>
+        <!-- End of project 2 -->
+
+        <!-- Project 3 -->
+        <div class="projects-box pb3 pb project-hidden">
+          <!-- <div class="projects"> -->
+          <div class="titles">
+            <h3>Forkify app</h3>
+            <p class="description">
+              In this project I integrated everything I learned about
+              JavaScript. This involved using the MVC architecture, loading data
+              from API, uploading new data, creating a search bar and
+              pagination, and storing bookmarks with the LocalStorage.
+            </p>
+            <a
+              href="https://forkify-app1.vercel.app/"
+              target="_blank"
+              class="live hvr-sweep-to-right"
+              >See live</a
+            >
+          </div>
+          <div class="image">
+            <img
+              class="img-project scale-up-center lazy-img"
+              data-src="/assets/forkify.png"
+              src="/assets/forkify-lazy.webp"
+              alt="Forkify app"
+            />
+          </div>
+          <!-- </div> -->
+        </div>
+        <!-- End of project 3 -->
+
+        <!-- Project 4 -->
+        <!-- <div class="projects-box pb4 pb project-hidden"> -->
+        <!-- <div class="projects"> -->
+        <!-- <div class="titles">
+            <h3>Gues my number</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum modi
+              expedita quas praesentium quam! Quod dolores fugit itaque quos et
+              soluta, vitae architecto accusantium saepe laudantium. Natus
+              corporis debitis doloremque? expedita quas praesentium quam! Quod
+              dolores fugit itaque quos et soluta, vitae architecto accusantium
+              saepe laudantium.
+            </p>
+            <a
+              href="https://guess-numberjs.netlify.app/"
+              target="_blank"
+              class="live hvr-sweep-to-right"
+              >See live</a
+            >
+          </div>
+          <div class="image">
+            <img
+              class="img-project scale-up-center lazy-img"
+              data-src="/assets/num.png"
+              src="/assets/num-lazy.webp"
+              alt="Guess my number"
+            />
+          </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- End of project 4 -->
+
+        <!-- Project 5 -->
+        <!-- <div class="projects-box pb5 pb project-hidden"> -->
+        <!-- <div class="projects"> -->
+        <!-- <div class="titles">
+            <h3>Pig game</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum modi
+              expedita quas praesentium quam! Quod dolores fugit itaque quos et
+              soluta, vitae architecto accusantium saepe laudantium. Natus
+              corporis debitis doloremque? expedita quas praesentium quam! Quod
+              dolores fugit itaque quos et soluta, vitae architecto accusantium
+              saepe laudantium.
+            </p>
+            <a
+              href="https://pig-game-falh.netlify.app/"
+              target="_blank"
+              class="live hvr-sweep-to-right"
+              >See live</a
+            >
+          </div>
+          <div class="image">
+            <img
+              class="img-project scale-up-center lazy-img"
+              data-src="/assets/piggame.png"
+              src="/assets/piggame-lazy.webp"
+              alt="Pig game"
+            />
+          </div>
+          </div>
+        </div> -->
+        <!-- End of project 5 -->
+
+        <!-- Project 6 -->
+        <div class="projects-box pb6 pb project-hidden">
+          <!-- <div class="projects"> -->
+          <div class="titles">
+            <h3>Omnifood</h3>
+            <p class="description">
+              Omnifood was my first project using HTML5 and CSS. I really love
+              this one as this is where my journey began. I learned the modern
+              flexbox and CSS grid. I also learned about the rules and
+              guidelines to make a catching and responsive design.
+            </p>
+            <a
+              href="https://omnifood-app2.vercel.app/"
+              target="_blank"
+              class="live hvr-sweep-to-right"
+              >See live</a
+            >
+          </div>
+          <div class="image">
+            <img
+              class="img-project scale-up-center lazy-img"
+              data-src="/assets/omni.png"
+              src="/assets/omni-lazy.webp"
+              alt="Omnifood"
+            />
+          </div>
+          <!-- </div> -->
+        </div>
+        <!-- End of project 6 -->
+
+        <!-- Project 7 -->
+        <!-- <div class="projects-box pb7 pb project-hidden"> -->
+        <!-- <div class="projects"> -->
+        <!-- <div class="titles">
+            <h3>PayPal Clone</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum modi
+              expedita quas praesentium quam! Quod dolores fugit itaque quos et
+              soluta, vitae architecto accusantium saepe laudantium. Natus
+              corporis debitis doloremque? expedita quas praesentium quam! Quod
+              dolores fugit itaque quos et soluta, vitae architecto accusantium
+              saepe laudantium.
+            </p>
+            <a
+              href="https://ppclone.netlify.app/"
+              target="_blank"
+              class="live hvr-sweep-to-right"
+              >See live</a
+            >
+          </div>
+          <div class="image">
+            <img
+              class="img-project scale-up-center lazy-img"
+              data-src="/assets/ppclone.png"
+              src="/assets/ppclone-lazy.webp"
+              alt="PayPal Clone"
+            />
+          </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- End of project 7 -->
+
+        <div class="btn-container">
+          <button
+            class="btn btn--projects-container hvr-underline-reveal"
+            type="button"
+          >
+            See <span class="option">More</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 2 -->
+
+    <!-- Section 3 -->
+    <section class="section-3">
+      <div class="section-3--contact section-hidden--contact">
+        <div class="contact">
+          <h3 class="contact-title">Contact</h3>
+        </div>
+        <div class="contact-email">
+          <p class="email">fabiola-andreina98@hotmail.com</p>
+          <a
+            href="mailto:fabiola-andreina98@hotmail.com"
+            class="btn-contact hvr-sweep-to-right"
+          >
+            Send email
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 3 -->
+  </body>
+</html>
